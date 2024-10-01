@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <h1>To DO List</h1>
+            <form id="myform">
+                <label>Date:</label>
+                <input type="date" id="date-input">
+                <br><br>
+                <label for="time">Time:</label>
+                <input type="time" id="time-input">
+                <br><br>
+                <label for="task">Task:</label>
+                <input type="text" id="task-input">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="task-div"></div>
+        </div>
+
+
+    <script src="todo.js"></script>
+</body>
+</html>

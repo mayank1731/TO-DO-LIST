@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#main-container {
+    background-image: url('https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.4,gy-1,q-75,rh-3264,rw-5824,th-1080,tw-1920/1236685128105726052.jpeg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    max-width: 800px;
+    border: solid;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#task-input, #time-input, #date-input {
+    height: 2rem;
+    width: 100%;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 0.5rem;
+}
+
+label, button {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+#task-div {
+    font-size: 16px;
+    max-height: 40%;
+    width: 100%;
+    border: solid;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(286, 286, 286, 0.1);
+    overflow-y: auto;
+}
+
+.task-item {
+    padding: 10px;
+    /* border: solid; */
+    border-radius: 30px;
+    background-color: rgb(182, 239, 182);
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 768px) {
+    #main-container {
+        width: 70%;
+        height: 60rem;
+    }
+
+    #task-div {
+        font-size: 20px;
+        height: 40%;
+    }
+
+    #task-input {
+        height: 2.5rem;
+    }
+}
